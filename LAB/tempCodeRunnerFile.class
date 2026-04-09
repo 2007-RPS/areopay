@@ -1,0 +1,39 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+public class PrimeChecker_Matrix {
+   public PrimeChecker_Matrix() {
+   }
+
+   static boolean isPrime(int var0) {
+      if (var0 < 2) {
+         return false;
+      } else {
+         for(int var1 = 2; var1 <= var0 / 2; ++var1) {
+            if (var0 % var1 == 0) {
+               return false;
+            }
+         }
+
+         return true;
+      }
+   }
+
+   public static void main(String[] var0) {
+      byte var1 = 5;
+      boolean[][] var2 = new boolean[var1][var1];
+
+      for(int var3 = 0; var3 < var1; ++var3) {
+         for(int var4 = 0; var4 < var1; ++var4) {
+            var2[var3][var4] = !isPrime(var3) || !isPrime(var4);
+         }
+      }
+
+      for(boolean[] var6 : var2) {
+         for(boolean var10 : var6) {
+            System.out.print(var10 + " ");
+         }
+
+         System.out.println();
+      }
+
+   }
+}
