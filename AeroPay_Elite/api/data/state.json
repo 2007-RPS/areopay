@@ -1,0 +1,150 @@
+{
+  "wallet": {
+    "currency": "USD",
+    "balance": 1670.45,
+    "travelPoints": 12650,
+    "escrowHeld": 0
+  },
+  "approvals": {},
+  "seatLocks": {},
+  "escrowLedger": {},
+  "idempotencyStore": {
+    "test-idem-100": {
+      "paymentId": "PAY-1776330461244",
+      "amount": 120,
+      "walletPart": 70,
+      "cardPart": 50,
+      "status": "AUTHORIZED",
+      "sessionKey": "test-idem-100",
+      "approvedAt": "2026-04-16T09:07:41.244Z"
+    }
+  },
+  "bookings": [],
+  "analytics": {
+    "events": [
+      {
+        "type": "search",
+        "at": "2026-04-16T13:28:20.865Z",
+        "query": {
+          "prompt": "Find business round-trip flight from DEL to NRT depart 2026-05-15 return 2026-05-22 under $1400 for 1 adults 0 children 0 infants",
+          "search": {
+            "tripType": "round-trip",
+            "from": "DEL",
+            "to": "NRT",
+            "departDate": "2026-05-15",
+            "returnDate": "2026-05-22",
+            "cabin": "Business",
+            "adults": 1,
+            "children": 0,
+            "infants": 0,
+            "budget": 1400,
+            "nonStopOnly": false
+          }
+        },
+        "resultCount": 2
+      },
+      {
+        "type": "search",
+        "at": "2026-04-16T13:29:30.018Z",
+        "query": {
+          "prompt": "Find business round-trip flight from DEL to NRT depart 2026-05-15 return 2026-05-22 under $1400 for 1 adults 0 children 0 infants",
+          "search": {
+            "tripType": "round-trip",
+            "from": "DEL",
+            "to": "NRT",
+            "departDate": "2026-05-15",
+            "returnDate": "2026-05-22",
+            "cabin": "Business",
+            "adults": 1,
+            "children": 0,
+            "infants": 0,
+            "budget": 1400,
+            "nonStopOnly": false
+          }
+        },
+        "resultCount": 2
+      },
+      {
+        "type": "search",
+        "at": "2026-04-21T03:37:40.038Z",
+        "query": {
+          "prompt": "Find business round-trip flight from DEL to NRT depart 2026-05-15 return 2026-05-22 under $1400 for 1 adults 0 children 0 infants",
+          "search": {
+            "tripType": "round-trip",
+            "from": "DEL",
+            "to": "NRT",
+            "departDate": "2026-05-15",
+            "returnDate": "2026-05-22",
+            "cabin": "Business",
+            "adults": 1,
+            "children": 0,
+            "infants": 0,
+            "budget": 1400,
+            "nonStopOnly": false,
+            "alliance": "any",
+            "maxLayover": 240,
+            "baggageIncludedOnly": false,
+            "flexibleDates": false,
+            "refundableOnly": false,
+            "departureWindowPreset": "any"
+          }
+        },
+        "resultCount": 2
+      },
+      {
+        "type": "search",
+        "at": "2026-04-21T03:43:36.610Z",
+        "query": {
+          "prompt": "Find business round-trip flight from DEL to NRT depart 2026-05-15 return 2026-05-22 under $1400 for 1 adults 0 children 0 infants",
+          "search": {
+            "tripType": "round-trip",
+            "from": "DEL",
+            "to": "NRT",
+            "departDate": "2026-05-15",
+            "returnDate": "2026-05-22",
+            "cabin": "Business",
+            "adults": 1,
+            "children": 0,
+            "infants": 0,
+            "budget": 1400,
+            "nonStopOnly": false,
+            "alliance": "any",
+            "maxLayover": 240,
+            "baggageIncludedOnly": false,
+            "flexibleDates": false,
+            "refundableOnly": false,
+            "departureWindowPreset": "any"
+          }
+        },
+        "resultCount": 2
+      },
+      {
+        "type": "search",
+        "at": "2026-04-21T04:15:36.746Z",
+        "query": {
+          "prompt": "Find business round-trip flight from DEL to NRT depart 2026-05-15 return 2026-05-22 under $1400 for 1 adults 0 children 0 infants",
+          "search": {
+            "tripType": "round-trip",
+            "from": "DEL",
+            "to": "NRT",
+            "departDate": "2026-05-15",
+            "returnDate": "2026-05-22",
+            "cabin": "Business",
+            "adults": 1,
+            "children": 0,
+            "infants": 0,
+            "budget": 1400,
+            "nonStopOnly": false,
+            "alliance": "any",
+            "maxLayover": 240,
+            "baggageIncludedOnly": false,
+            "flexibleDates": false,
+            "refundableOnly": false,
+            "departureWindowPreset": "any"
+          }
+        },
+        "resultCount": 2
+      }
+    ]
+  }
+}

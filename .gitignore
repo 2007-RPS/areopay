@@ -1,0 +1,20 @@
+# Java build artifacts
+*.class
+LAB/temp*.java
+LAB/*CodeRunnerFile*.java
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# AeroPay_Elite generated/dependency artifacts
+AeroPay_Elite/api/node_modules/
+AeroPay_Elite/web/node_modules/
+AeroPay_Elite/api/dist/
+AeroPay_Elite/web/dist/
+AeroPay_Elite/coverage/
+AeroPay_Elite/*.log
+AeroPay_Elite/.env
+AeroPay_Elite/.env.*
+!AeroPay_Elite/.env.example
